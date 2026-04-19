@@ -82,6 +82,24 @@ pip install -r requirements.txt
 deactivate
 ```
 
----
+* En el archivo .gitignore incluímos el venv para no subir odo el volumen de dependencias de pyhon al repo.
 
-Más contenido será añadido próximamente 🚀
+## Trabajo en Notebooks
+
+* Activa tu entorno virtual. Luego, instala el paquete ipykernel (incluído en requirements.txt)
+
+``` bash
+pip install ipykernel
+```
+
+### macOS / Linux
+
+``` bash
+python -m ipykernel install --user --name IntroDS --display-name "Python (IntroDS)"
+```
+
+### Windows (PowerShell)
+
+``` powershell
+python -m ipykernel install --user --name IntroDS --display-name "Python (IntroDS)"
+```
